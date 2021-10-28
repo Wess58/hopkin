@@ -1,11 +1,11 @@
 <nav class="navbar navbar-expand-lg fixed-top">
-  <a class="navbar-brand">Hopkin Security</a>
+  <a class="navbar-brand">Hopkin Security <i class="fas fa-shield-alt"></i></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse justify-content-center borderXwidth" id="navbarSupportedContent">
-    <ul class="navbar-nav">
+    <ul class="navbar-nav m-auto">
       <li class="nav-item">
         <a class="nav-link" [routerLink]="['/']" routerLinkActive="active-link" [routerLinkActiveOptions]="{ exact: true }">Home
         </a>
@@ -19,8 +19,11 @@
           <a class="dropdown-item">Home security guards</a>
           <a class="dropdown-item">CCTV Surveillance</a>
           <a class="dropdown-item">Electric fencing</a>
-
         </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link">Contact Now
+        </a>
       </li>
     </ul>
   </div>
